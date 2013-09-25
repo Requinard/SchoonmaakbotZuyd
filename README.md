@@ -1,2 +1,2 @@
-<h1>De Schoonmaakrobot van Zuyd</h1>
-<p>echte naam moet nog komen</p>
+De Schoonmaakrobot van Zuyd
+echte naam moet nog komen
