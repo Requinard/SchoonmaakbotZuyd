@@ -33,5 +33,6 @@ int readI2C(unsigned long now);
 #include "C:\Users\David\Downloads\uno\arduino-1.0.3\hardware\arduino\variants\standard\pins_arduino.h" 
 #include "C:\Users\David\Downloads\uno\arduino-1.0.3\hardware\arduino\cores\arduino\arduino.h"
 #include "C:\Users\David\Programma\Project Schoonmaakrobot\ArduinoMotorSlave\ArduinoMotorSlave.ino"
+#include "C:\Users\David\Programma\Project Schoonmaakrobot\ArduinoMotorSlave\ArduinoMotorSlave.h"
 #include "C:\Users\David\Programma\Project Schoonmaakrobot\ArduinoMotorSlave\Queue.cpp"
 #include "C:\Users\David\Programma\Project Schoonmaakrobot\ArduinoMotorSlave\Queue.h"
