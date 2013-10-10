@@ -1,4 +1,4 @@
-++++++++Beeldherkenning
+#Beeldherkenning
 
 Gebied van Rico en David
 
