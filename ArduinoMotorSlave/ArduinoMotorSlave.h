@@ -1,16 +1,20 @@
 #include <Wire.h>
-#include <Stepper.h>
 #include "Queue.h"
 
-//Globale variabelen declareren
-//Stappenmotoren
-Stepper leftFront = Stepper(200, A0, A1);
-Stepper leftBehind = Stepper(200, A2, A3);
-Stepper rightFront = Stepper(200, 6, 7);
-Stepper rightBehind = Stepper(200, 8, 9);
-//Scheduler
-Queue myQueue;
+//Defines
+#define PIN8 8
+#define PIN9 9
+#define PIN10 10
+#define PIN11 11
+#define PIN12 12
+#define PIN13 13
 
-int testFunction(unsigned long);
-int test2(unsigned long);
-int readI2C(unsigned long);
+//Globale variabelen declareren
+//Scheduler
+Queue scheduler;
+//Rotatie voor scheduler
+bool stopRotationBool;
+
+int serialReceive(unsigned long time);
+int stopRotation(unsigned long time);
+void pintWrite(int, unsigned long);

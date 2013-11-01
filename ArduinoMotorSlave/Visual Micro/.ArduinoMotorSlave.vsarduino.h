@@ -26,9 +26,9 @@ extern "C" void __cxa_pure_virtual() {}
 
 //already defined in arduno.h
 //already defined in arduno.h
-int testFunction(unsigned long now);
-int test2(unsigned long now);
-int readI2C(unsigned long now);
+int serialReceive(unsigned long time);
+void togglePin(int pin, unsigned long time);
+int stopRotation(unsigned long time);
 
 #include "C:\Users\David\Downloads\uno\arduino-1.0.3\hardware\arduino\variants\standard\pins_arduino.h" 
 #include "C:\Users\David\Downloads\uno\arduino-1.0.3\hardware\arduino\cores\arduino\arduino.h"

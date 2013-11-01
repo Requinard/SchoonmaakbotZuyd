@@ -4,6 +4,7 @@ import cv2.cv as cv
 import time
 
 cv.NamedWindow("camera", 1)
+#classifier = cv.CascadeClassifier()
 
 capture = cv.CaptureFromCAM(0)
 
@@ -12,4 +13,5 @@ while True:
     cv.ShowImage("camera", img)
     if cv.WaitKey(10) == 27:
         break
+
 cv.DestroyAllWindows()
