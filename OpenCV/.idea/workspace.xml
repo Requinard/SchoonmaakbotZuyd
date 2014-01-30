@@ -12,7 +12,8 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Schoonmaakbot$Unnamed.coverage" NAME="SciPy Coverage Results" MODIFIED="1389879439148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Schoonmaakbot$Unnamed.coverage" NAME="SciPy Coverage Results" MODIFIED="1389902198199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Schoonmaakbot$SciPy.coverage" NAME="SciPy Coverage Results" MODIFIED="1390574202943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Schoonmaakbot$scipy.coverage" NAME="scipy Coverage Results" MODIFIED="1389267250040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -27,12 +28,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="detect.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/detect.py">
+      <file leaf-file-name="pathfinding.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pathfinding.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="88" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="2244">
+            <state line="165" column="10" selection-start="3728" selection-end="3728" vertical-scroll-proportion="0.67054266" vertical-offset="2459" max-vertical-offset="2975">
               <folding>
-                <element signature="e#23#41#0" expanded="true" />
+                <element signature="e#22#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,21 +42,8 @@
       <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="5" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pathfinding.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pathfinding.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="10" selection-start="272" selection-end="272" vertical-scroll-proportion="0.5284974" vertical-offset="17" max-vertical-offset="1003">
-              <folding>
-                <element signature="e#22#41#0" expanded="true" />
-              </folding>
+            <state line="3" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="357">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,25 +51,25 @@
       <file leaf-file-name="threading.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://C:/WinPython-32bit-2.7.6.1/python-2.7.6/Lib/threading.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="797" column="32" selection-start="28598" selection-end="28598" vertical-scroll-proportion="0.0" vertical-offset="13122" max-vertical-offset="22729">
+            <state line="762" column="0" selection-start="27028" selection-end="27028" vertical-scroll-proportion="0.0" vertical-offset="12782" max-vertical-offset="22729">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="numeric.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/WinPython-32bit-2.7.6.1/python-2.7.6/Lib/site-packages/numpy/core/numeric.py">
+      <file leaf-file-name="traceback.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/WinPython-32bit-2.7.6.1/python-2.7.6/Lib/traceback.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1614" column="0" selection-start="47736" selection-end="47736" vertical-scroll-proportion="0.0" vertical-offset="27113" max-vertical-offset="46359">
+            <state line="97" column="0" selection-start="3557" selection-end="3557" vertical-scroll-proportion="0.0" vertical-offset="1649" max-vertical-offset="5525">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arrayprint.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/WinPython-32bit-2.7.6.1/python-2.7.6/Lib/site-packages/numpy/core/arrayprint.py">
+      <file leaf-file-name="linecache.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/WinPython-32bit-2.7.6.1/python-2.7.6/Lib/linecache.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="238" column="0" selection-start="7498" selection-end="7498" vertical-scroll-proportion="0.0" vertical-offset="3853" max-vertical-offset="12886">
+            <state line="72" column="0" selection-start="1781" selection-end="1781" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="2397">
               <folding />
             </state>
           </provider>
@@ -161,13 +149,13 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -220,6 +208,22 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="Python.AppEngineServer" factoryName="App Engine server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Schoonmaakbot" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="browserUrl" value="" />
+      <option name="additionalOptions" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,22 +244,6 @@
       <option name="USE_PATTERN" value="false" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Python.AppEngineServer" factoryName="App Engine server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Schoonmaakbot" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="browserUrl" value="" />
-      <option name="additionalOptions" value="" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -294,6 +282,9 @@
       <option name="CONFIGURATION_FILE" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -315,9 +306,6 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -412,19 +400,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17182498" sideWeight="0.6722222" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17716116" sideWeight="0.6022222" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39777777" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39777777" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32777777" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -453,31 +441,24 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/pathfinding.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="29" />
+          <line>161</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/pathfinding.py</url>
+          <line>111</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/pathfinding.py</url>
+          <line>159</line>
+          <option name="timeStamp" value="44" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="30" />
+      <option name="time" value="47" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/detect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding>
-            <element signature="e#23#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/WinPython-32bit-2.7.6.1/python-2.7.6/Lib/site-packages/opencv/build/python/2.7/x64/cv2.pyd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="967334" />
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="uml://Python/#C:/Users/David/PycharmProjects/Schoonmaakbot/main.py">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -500,30 +481,22 @@
     </entry>
     <entry file="file://C:/WinPython-32bit-2.7.6.1/python-2.7.6/Lib/getopt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="0" selection-start="3422" selection-end="3422" vertical-scroll-proportion="0.0" vertical-offset="1375" max-vertical-offset="3672">
-          <folding />
-        </state>
+        <state line="91" column="0" selection-start="3422" selection-end="3422" vertical-scroll-proportion="0.0" vertical-offset="1375" max-vertical-offset="3672" />
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1531" column="0" selection-start="60412" selection-end="60412" vertical-scroll-proportion="0.0" vertical-offset="24508" max-vertical-offset="25024">
-          <folding />
-        </state>
+        <state line="1531" column="0" selection-start="60412" selection-end="60412" vertical-scroll-proportion="0.0" vertical-offset="24508" max-vertical-offset="25024" />
       </provider>
     </entry>
     <entry file="file://C:/WinPython-32bit-2.7.6.1/python-2.7.6/Lib/common.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="0" selection-start="3744" selection-end="3744" vertical-scroll-proportion="0.0" vertical-offset="1970" max-vertical-offset="3723">
-          <folding />
-        </state>
+        <state line="130" column="0" selection-start="3744" selection-end="3744" vertical-scroll-proportion="0.0" vertical-offset="1970" max-vertical-offset="3723" />
       </provider>
     </entry>
     <entry file="file://C:/WinPython-32bit-2.7.6.1/python-2.7.6/Lib/video.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="0" selection-start="4900" selection-end="4900" vertical-scroll-proportion="0.0" vertical-offset="2497" max-vertical-offset="3332">
-          <folding />
-        </state>
+        <state line="161" column="0" selection-start="4900" selection-end="4900" vertical-scroll-proportion="0.0" vertical-offset="2497" max-vertical-offset="3332" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/haarcascades/haarcascade_mcs_nose.xml">
@@ -533,9 +506,7 @@
     </entry>
     <entry file="file://C:/WinPython-32bit-2.7.6.1/python-2.7.6/Lib/site-packages/numpy/core/fromnumeric.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1366" column="0" selection-start="42992" selection-end="42992" vertical-scroll-proportion="0.29706392" vertical-offset="22914" max-vertical-offset="49589">
-          <folding />
-        </state>
+        <state line="1366" column="0" selection-start="42992" selection-end="42992" vertical-scroll-proportion="0.29706392" vertical-offset="22914" max-vertical-offset="49589" />
       </provider>
     </entry>
     <entry file="file://C:/WinPython-32bit-2.7.6.1/python-2.7.6/Lib/site-packages/numpy/core/numeric.py">
@@ -547,41 +518,49 @@
     </entry>
     <entry file="file://C:/WinPython-32bit-2.7.6.1/python-2.7.6/Lib/site-packages/numpy/core/arrayprint.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="238" column="0" selection-start="7498" selection-end="7498" vertical-scroll-proportion="0.0" vertical-offset="3874" max-vertical-offset="12886">
+        <state line="238" column="0" selection-start="7498" selection-end="7498" vertical-scroll-proportion="0.0" vertical-offset="3874" max-vertical-offset="12886" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="88" selection-start="408" selection-end="408" vertical-scroll-proportion="0.079457365" vertical-offset="146" max-vertical-offset="2176">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/WinPython-32bit-2.7.6.1/python-2.7.6/Lib/linecache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="0" selection-start="1781" selection-end="1781" vertical-scroll-proportion="0.0" vertical-offset="1035" max-vertical-offset="2380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/WinPython-32bit-2.7.6.1/python-2.7.6/Lib/traceback.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="0" selection-start="3557" selection-end="3557" vertical-scroll-proportion="0.0" vertical-offset="1443" max-vertical-offset="5491">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/WinPython-32bit-2.7.6.1/python-2.7.6/Lib/threading.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="797" column="32" selection-start="28598" selection-end="28598" vertical-scroll-proportion="0.0" vertical-offset="13122" max-vertical-offset="22729">
+        <state line="762" column="0" selection-start="27028" selection-end="27028" vertical-scroll-proportion="0.0" vertical-offset="12782" max-vertical-offset="22729">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="88" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="2244">
-          <folding>
-            <element signature="e#23#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="5" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pathfinding.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="10" selection-start="272" selection-end="272" vertical-scroll-proportion="0.5284974" vertical-offset="17" max-vertical-offset="1003">
+        <state line="165" column="10" selection-start="3728" selection-end="3728" vertical-scroll-proportion="0.67054266" vertical-offset="2459" max-vertical-offset="2975">
           <folding>
-            <element signature="e#22#41#0" expanded="true" />
+            <element signature="e#22#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
