@@ -23,10 +23,10 @@ Indeling grid is als volgt:
 grid[Y][X]
 """
 
-"""
-Houdt de data voor een node vast.
-"""
 class Node():
+    """
+    Houdt de data voor een node vast.
+    """
     def __init__(self, x, y):
         self.x = x
         self.y = y
@@ -55,12 +55,16 @@ class Node():
         self.minus = math.fabs((self.x - originX) - (self.y - originY))
         return self.minus
 
-"""
-Genereert een grid en schrijft dit naar grid.txt.
+    def IsNode(self, x, y):
+        return x == self.x and y == self.y
 
-Verzorgt ook een automatische lijst met positieve nodes.
-"""
-def generateGrid():
+
+def genGrid():
+    """
+    Genereert een grid en schrijft dit naar grid.txt.
+
+    Verzorgt ook een automatische lijst met positieve nodes.
+    """
     #GRid is gemaakt van 10 centimeter vlakken. 400x400
     grid = zeros((40,40), dtype=bool)
 
@@ -104,66 +108,98 @@ def generateGrid():
     return (grid, nodes)
 
 
-"""
-Begint met een lijst nodes.
+def pathFind(nodes):
+    """
+    Begint met een lijst nodes.
 
-Past vervolgens snelste pad toe
-"""
-def pathfinding(nodes):
+    Past vervolgens
+    """
     #Startpunt
     currentLocation = Node(0,0)
     #Route
     Route = list()
 
-    #Punten berekenen
-    while True:
-        #Nodes hun SortPlus geven
-        for node in nodes:
-            node.SortPlus(currentLocation.x, currentLocation.y)
-            print "Node nummer %i op punt %f" % (1, node.plus)
+    PATHMODE = 0
 
-        #Nodes sorteren op hun SortPlus
-        nodes.sort(key=itemgetter("plus"))
+    if(PATHMODE == 0):
+        #Punten berekenen
+        while True:
+            #Nodes hun SortPlus geven
+            for node in nodes:
+                node.SortPlus(currentLocation.x, currentLocation.y)
+                print "Node nummer %i op punt %f" % (1, node.plus)
 
-        #Lijst met eindresultaten aanmaken
-        possibleNodes = list()
+            #Nodes sorteren op hun SortPlus
+            nodes.sort(key=itemgetter("plus"))
 
-        for i in range(0,5):
-            #Als dit de kleinste overgebleven node is
-            if nodes[i].plus < nodes[i+1].plus:
-                possibleNodes.append(nodes[i])
+            #Lijst met eindresultaten aanmaken
+            possibleNodes = list()
+
+            for i in range(0,5):
+                #Als dit de kleinste overgebleven node is
+                if nodes[i].plus < nodes[i+1].plus:
+                    possibleNodes.append(nodes[i])
+                    break
+                #Als er nog even grote nodes over zijn.
+                elif nodes[i].plus == nodes[i+1].plus:
+                    possibleNodes.append(nodes[i])
+
+            #Als er meer als een node is gevonden moet er gesorteerd worden op minus
+            if len(possibleNodes) != 1:
+                #Minus berekenen
+                for node in possibleNodes:
+                    node.SortMinus(currentLocation.x, currentLocation.y)
+
+                #Sorteren
+                possibleNodes.sort(key=itemgetter("minus"))
+
+
+            #locatie updaten en gebruikte node verwijderen
+            currentLocation = Node(possibleNodes[0].x, possibleNodes[0].y)
+
+            for i in range(0, len(nodes)):
+                if nodes[i] == possibleNodes[0]:
+                    nodes.pop(i)
+                    break
+
+            Route.append(possibleNodes[0])
+
+            if len(Route) == 6:
                 break
-            #Als er nog even grote nodes over zijn.
-            elif nodes[i].plus == nodes[i+1].plus:
-                possibleNodes.append(nodes[i])
+        return Route
 
-        #Als er meer als een node is gevonden moet er gesorteerd worden op minus
-        if len(possibleNodes) != 1:
-            #Minus berekenen
-            for node in possibleNodes:
-                node.SortMinus(currentLocation.x, currentLocation.y)
-
-            #Sorteren
-            possibleNodes.sort(key=itemgetter("minus"))
+    elif(PATHMODE == 1):
+        openList = nodes
+        closedList = list()
+        cameFrom = list()
 
 
-        #locatie updaten en gebruikte node verwijderen
-        currentLocation = Node(possibleNodes[0].x, possibleNodes[0].y)
 
-        for i in range(0, len(nodes)):
-            if nodes[i] == possibleNodes[0]:
-                nodes.pop(i)
-                break
+def writeRoute(Route, grid):
+    """
+    Schrijft de route naar een textbestand
+    """
 
-        Route.append(possibleNodes[0])
+    file = open("route.txt", "w")
 
-        if len(Route) == 6:
-            break
-    return Route
+    nodeNumber = 1
 
+    for x in range(0, 40):
+        for y in range(0, 40):
+            for node in Route:
+                if node.IsNode(x, y):
+                    file.write(str(nodeNumber))
+                    nodeNumber += 1
+                else:
+                    file.write("x")
 
+        file.write('\n')
+
+    file.close()
 
 def run():
-    grid, nodes = generateGrid()
-    Route = pathfinding(nodes)
+    grid, nodes = genGrid()
+    Route = pathFind(nodes)
+
+    writeRoute(Route, grid)
 
